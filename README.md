@@ -1,4 +1,4 @@
-# warehouse-management-system
+# Warehouse-management-system
 
 This is an online web warehouse data management system based on HTML/python/django/mySQL  
 
