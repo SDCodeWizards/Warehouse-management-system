@@ -26,5 +26,8 @@ pycharm ->new django template
 ********
 ## How to run  
 use pycham to create a django project, copy all files in to the project you just created.   
-open terminal, type  *python manage.py runserver*  
-You can see the running effect by entering the URL displayed on the terminal.  
+
+open terminal，  
+First  type *python manage.py migrate*  
+then type  *python manage.py runserver*  
+You can see the running effect by entering the URL displayed on the terminal.  ( http://127.0.0.1:8000/)
