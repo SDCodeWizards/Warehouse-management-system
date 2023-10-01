@@ -25,3 +25,6 @@ pycharm ->new django template
 
 ********
 ## How to run     
+use pycham to create a django project, copy all files in to the project you just created.   
+open terminal, type  *python manage.py runserver*  
+You can see the running effect by entering the URL displayed on the terminal.  
