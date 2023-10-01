@@ -15,7 +15,7 @@ The preset functions include login verification, database addition/deletion/modi
 
 ## Contents <br>
 * [Required environment](#required-environment)
-
+* [How to run](#How-to-run)
 
 ********
 ## Required environment   
@@ -23,3 +23,5 @@ python 3.7
 mysql 8.0.34  
 pycharm ->new django template  
 
+********
+## How to run     
