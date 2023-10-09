@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Production List</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Production List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Variation Name</th>
+                <th>SKU (Barcode)</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Current Quantity Little Tokyo</th>
+                <!-- 其他字段的表头... -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in production_list %}
+                <tr>
+                    <td>{{ item.item_name }}</td>
+                    <td>{{ item.variation_name }}</td>
+                    <td>{{ item.barcode }}</td>
+                    <td>{{ item.category }}</td>
+                    <td>{{ item.price }}</td>
+                    <td>{{ item.quantity_Tokyo }}</td>
+                    <!-- 其他字段的数据... -->
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+
+</html>
